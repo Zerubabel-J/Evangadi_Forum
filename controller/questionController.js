@@ -32,9 +32,10 @@ async function askquestion(req, res) {
 
 // Function to generate a unique question ID
 function generateQuestionId() {
-  const timestamp = new Date().getTime();
-  const randomNumber = Math.floor(Math.random() * 1000);
-  return `Q-${timestamp}-${randomNumber}`;
+  // const timestamp = new Date().getTime();
+  const randomNumber = Math.floor(Math.random() * 100);
+  const uniqueId = parseInt(`${randomNumber}`);
+  return uniqueId;
 }
 
 // red all question
@@ -69,7 +70,7 @@ async function readQuestion(req, res) {
     return res.send(error.message);
   }
 }
-// edit single question 
+// edit single question
 async function editQuestion(req, res) {
   const id = req.params.id;
   const { title, description } = req.body;
@@ -109,5 +110,5 @@ module.exports = {
   readAllQuestion,
   readQuestion,
   editQuestion,
-  deleteQuestion
+  deleteQuestion,
 };
