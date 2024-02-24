@@ -7,6 +7,11 @@ import classes from "./main.module.css";
 const Main = () => {
   return (
     <div>
+      <br />
+      <br />
+      <br />
+      <br />
+
       <div className={classes.mainSection}>
         <div className={classes.leftSection}>
           <LeftProfile />
