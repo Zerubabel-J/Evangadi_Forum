@@ -8,6 +8,7 @@ import { AiFillMessage } from "react-icons/ai";
 import { AiFillLike } from "react-icons/ai";
 import { IoNotifications } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
+import { FaTags } from "react-icons/fa";
 
 export const Header = () => {
   return (
@@ -35,6 +36,11 @@ export const Header = () => {
           <li>
             <a href="">
               <AiFillMessage />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <FaTags />
             </a>
           </li>
           <li>

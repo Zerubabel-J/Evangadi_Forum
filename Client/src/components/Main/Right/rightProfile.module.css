@@ -1,0 +1,44 @@
+.profileContainer {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+  margin-top: 45px;
+}
+.profileContainer h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+.profileContent {
+  margin-top: 20px;
+}
+
+.profileItem {
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.profileContent div svg {
+  margin-left: 30px;
+  font-size: 25px;
+  color: #3b82f6;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.profileUpdate {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+/* Additional styles can be added as per requirement */

@@ -1,0 +1,52 @@
+.icons {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.iconsList {
+  list-style: none;
+  padding: 10px;
+}
+
+.iconsList li {
+  margin-bottom: 30px;
+  text-align: center;
+  /* Center the content horizontally */
+}
+
+.iconsList a {
+  display: flex;
+  flex-direction: column; /* Arrange icon and text in a column */
+  align-items: center;
+  text-decoration: none;
+  color: #007bff;
+}
+.iconsList a svg {
+  font-size: 30px; /* Adjust icon size */
+  font-weight: bolder; /* Set icon weight to bold */
+}
+
+.iconsList a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.iconsList small {
+  margin-left: 10px;
+}
+
+.iconsList span {
+  margin-left: 10px;
+}
+
+.notificationBadge {
+  position: relative;
+  top: -20px;
+  left: -14px;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 3px 4px;
+  border-radius: 50%;
+  display: inline-block;
+}
